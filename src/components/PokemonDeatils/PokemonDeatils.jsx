@@ -57,7 +57,7 @@ function PokemonDeatils(){
 
           <ul>
             
-            {  pokemon.similarPokemons .map((p)=>  <li key={p.pokemon.id}>{p.pokemon.name}</li>)}
+            {  pokemon.similarPokemons .map((p)=>  <li key={p.pokemon.url}>{p.pokemon.name}</li>)}
             
           </ul>
         </div>
